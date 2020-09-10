@@ -1,0 +1,125 @@
+
+body {
+    background-color: hotpink;
+}
+h1 {
+    color: slategray;
+    font-size: 50px;
+    font-family: 'Abril Fatface', cursive; 
+}
+
+.april {
+    color: lime;
+    font-size: 70px;
+}
+
+.first {
+
+    background-color: indianred;
+}
+
+.second {
+    background-color: lightcoral;
+}
+
+.third {
+    background-color: lightslategray;
+}
+
+ #quote {
+
+
+     color: lightsalmon;
+     font-size: 65px;
+     font-family: Arial, Helvetica, sans-serif; 
+ }
+
+ #small {
+
+    background-color: lightslategray;
+ }
+
+ #unique {
+
+    color: green;
+ }
+
+ form {
+
+    border: solid grey 10px;
+    width: 35%;
+    margin-left: 25px;
+    margin: 0px;
+    padding: 0px;
+ }
+
+ #button {
+     margin-top: 15px;
+ }
+
+
+
+
+/* section {
+        background-image: url("https://www.milrose.com/hubfs/Milrose_Consultants_August_2016/Images/is-my-building-considered-highrise.jpg");
+        background-repeat: no-repeat;
+        width: 50%;
+        color: wheat;
+        font-size: 40px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section:hover {
+
+    opacity: 2.0;
+    background-color: teal;
+} */
+
+
+
+nav {
+
+    float: right;
+    font-size: 20px;
+    color: peru;
+}
+
+.nav1:hover {
+    color: plum;
+    font-size: 25px;
+}
+
+img {
+
+    border: slateblue solid 20px; 
+}
+
+
+.title {
+    border: slateblue solid 20px; 
+}
+
+.personal {
+
+    border: slateblue solid 20px; 
+}
+
+.about {
+
+    border: slateblue solid 20px; 
+}
+
+p {
+    
+    margin-left: 20px;
+
+}
+
+ul {
+
+    list-style-type:  none;
+}
+
+aside {
+    float: right;
+}
