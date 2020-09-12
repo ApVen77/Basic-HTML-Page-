@@ -44,14 +44,15 @@ h1 {
     color: green;
  }
 
- form {
+ 
 
-    border: solid grey 10px;
-    width: 35%;
-    margin-left: 25px;
-    margin: 0px;
-    padding: 0px;
- }
+    form {
+        max-width: 480px;
+        margin: 50px auto;
+        padding: 16px;
+        border: 1px solid #eaeaea;
+      }
+ 
 
  #button {
      margin-top: 15px;

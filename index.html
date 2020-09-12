@@ -18,8 +18,8 @@
 
     <nav>
         <a class="nav" href="beyonce.html">Check it!</a> |
-        <a class="nav1" href="/css/">Bio</a> |
-        <a class="nav2" href="/js/">Contact Me</a> |
+        <a class="nav1" href="index.html">Bio</a> |
+        <a class="nav2" href="forms.html">Contact Me</a> |
 
     </nav>
     <!--add 3 div tags to your document-->
@@ -50,10 +50,10 @@
     </div>
 
     <form id="formation" actions="https://apven77.github.io/Basic-HTML-Page-/" method="get">
-        
+
         <label for="name">Name:</label>
         <br>
-        <input type="text" id="name">
+        <input type="name" id="name" name="name" value="">
         <br><br>
         <label for="email">Email Address:</label>
         <br><br>
@@ -62,17 +62,35 @@
         <label for="password">Password:</label>
         <br><br>
         <input type="password" id="password">
-        <input type="text" placeholder="Name"> 
+        <input type="text" placeholder="Name">
         <br><br>
         <!--radio buttons-->
         <input type="radio" id="dogs" name="pet" value="dogs">
         <label for="dogs">Dogs</label> <br>
+
         <input type="radio" id="cats" name="pet" value="cats">
         <label for="cats">Cats</label><br>
+
         <input type="radio" id="fish" name="pet" value="fish">
-        <label for="fish">Fish</label><br>
+        <label for="fish">Fish</label>
+        <br>
+        <!--Check box-->
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label><br><br>
+        <input type="submit" value="Submit">
         <!--submit-->
-        <input type="submit" value="submit"  >
+        <button type="submit" id="button">Submit</button>
+        <br><br>
+
+        <label for="telephone number">Phone</label>
+        <br>
+        <input type="tel" id="telephone number" placeholder="Phone">
+        <br>
+
 
 
 
@@ -82,7 +100,7 @@
 
 
 
-    
+
     <!--optional-->
 
 
@@ -108,7 +126,7 @@
     </p>
 
 
-    <div id= "personal">
+    <div id="personal">
         <h2><u>Personal</u></h2>
         <!-- create a list of things you like to do-->
         <ol>
