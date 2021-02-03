@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="nav" href="beyonce.html">Check it!</a> |
+            <a class="nav1" href="index.html">Bio</a> |
+            <a class="nav2" href="forms.html">Contact Me</a> |
+            <a class="nav3" href="example.html">Me </a>
+    
+        </nav>
+    </header>
+    <main>
+    <figure>
+        <img src="images/me.jpg" alt="black girl" width="300" height="200">
+        <figcaption>Taken in Madrid -2000</figcaption>
+    </figure>
+    <figure>
+        <img src="images/vail.jpg" alt="black girl" width="300" height="200">
+        <figcaption>Taken in Madrid -2000</figcaption>
+    </figure>
+
+    <figure>
+        <img src="images/du.jpg" alt="black girl" width="300" height="200">
+        <figcaption>Taken in Madrid -2000</figcaption>
+    </figure>
+
+<table style= "width:100%">
+    <tr>
+     <th>Picture number</th>
+     <th>Date</th>
+     <th>Place of <Picture></Picture></th>
+     <th>Description</th>
+    </tr>
+
+    <tr>
+        <td>#1</td>
+        <td>2018</td>
+        <td>Denver</td>
+        <td>I was at a birthday party!</td>
+        
+    </tr>
+
+    <tr>
+        <td>#2</td>
+        <td>2016</td>
+        <td>Wheat ridge</td>
+        <td>After I gave birth</td>
+        
+    </tr>
+
+    <tr>
+        <td>#3</td>
+        <td>2013</td>
+        <td>Vail</td>
+        <td>Ice skating</td>
+        
+    </tr>
+
+
+</table>
+
+<table>
+    <caption>The Beatles</caption>
+    <tr>
+      <td>John Lennon</td>
+      <td>Rhythm Guitar</td>
+    </tr>
+    <tr>
+      <td>Paul McCartney</td>
+      <td>Bass</td>
+    </tr>
+    <tr>
+      <td>George Harrison</td>
+      <td>Lead Guitar</td>
+    </tr>
+    <tr>
+      <td>Ringo Starr</td>
+      <td>Drums</td>
+    </tr>
+  </table>
+</main>
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+<script>
+function myFunction() {
+    var txt;
+    var person = prompt("Please enter your name:", "Harry Potter");
+    if (person == null || person == "") {
+      txt = "User cancelled the prompt.";
+    } else {
+      txt = "Hello " + person + "! How are you today?";
+    }
+    document.getElementById("demo").innerHTML = txt;
+  }
+</script> 
+    
+</body>
+</html>
+

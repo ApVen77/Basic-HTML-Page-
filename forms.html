@@ -14,6 +14,7 @@
             <a class="nav" href="beyonce.html">Check it!</a> |
             <a class="nav1" href="index.html">Bio</a> |
             <a class="nav2" href="forms.html">Contact Me</a> |
+            <a class="nav3" href="example.html">Me </a>
     
         </nav>
     </header>
@@ -22,17 +23,21 @@
             <h2>Join My Email List!</h2>
             <!--H2 that introduces your form-->
             <label for="name">Enter Your Name:</label>
-            <input type="text" id="name" placeholder="Name">
+            <input type="text" id="name" placeholder="Name" required autocomplete="on">
             <br><br>
-            <label for="email">Enter Your Email:</label>S
-            <input type="email" id="email" placeholder="Email">
+
+            <label for="email">Enter Your Email:</label>
+            <input type="email" id="email" placeholder="Email" required>
             <br><br>
+
             <label for="password">Create A Password:</label>
             <input type="password" id="password" placeholder="Password">
             <br><br>
+
             <label for="tel">Enter your Phone Number:</label>
             <input type="tel" id="telephone" placeholder="telephone">
             <br><br>
+
             <h4>Best Time To Contact</h4>
             <input type="radio" id="morning" name="contact time" value="morning">
             <label for="radio">Morning</label>
@@ -43,62 +48,68 @@
             <input type="radio" id="evening" name="contact time" value="evening">
             <label for="radio">Evening</label>
             <br><br>
-            <input type="submit" id="submit" value="Submit">
-
-            <table>
-                <h2>Employees</h2>
+            <input type="submit" id="submit" value="SUBMIT">
+            <!--this is where the form ends-->
         
-                <table style="width:100%">
-                    <tr>
-                        <th>First Name</th>
-                        <th>Nick Name</th>
-                        <th>Birthday</th>
-                        <th>Age</th>
-                        <th>Favorite Food</th>
-                        <th>Avaiable on Weekends?</th>
-                    </tr>
-        
-                    <tr>
-                        <td>Aven</td>
-                        <td>Mi Amor</td>
-                        <td>Sept 22</td>
-                        <td>7</td>
-                        <td>Burg</td>
-                        <td> 
-                            <input type="submit" id="yes" name="availiable" value="Yes">
-                            <br>
-                            <input type="submit" id="no" name="availiable" value="No ">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Ari</td>
-                        <td>Suki/Sissy</td>
-                        <td>Feb 8</td>
-                        <td>4</td>
-                        <td>Spaghetti</td>
-                        <td> 
-                            <input type="submit" id="yes" name="availiable" value="Yes">
-                            <br>
-                            <input type="submit" id="no" name="availiable" value="No ">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Alexander</td>
-                        <td>Doodie</td>
-                        <td>March 25</td>
-                        <td>2</td> 
-                        <td>Cheese</td>
-                        <td> 
-                            <input type="submit" id="yes" name="availiable" value="Yes">
-                            <br>
-                            <input type="submit" id="no" name="availiable" value="No ">
-                        </td>
-                    </tr>
-                </table>
-
 
         </form>
     </main>
+    
+    <section>
+        <table>
+            <h2>Employees</h2>
+    
+            <table style="width:100%">
+                <tr>
+                    <th>First Name</th>
+                    <th>Nick Name</th>
+                    <th>Birthday</th>
+                    <th>Age</th>
+                    <th>Favorite Food</th>
+                    <th>Avaiable on Weekends?</th>
+                </tr>
+    
+                <tr>
+                    <td>Aven</td>
+                    <td>Mi Amor</td>
+                    <td>Sept 22</td>
+                    <td>7</td>
+                    <td>Burg</td>
+                    <td> 
+                        <input type="submit" id="yes" name="availiable" value="Yes">
+                        <br>
+                        <input type="submit" id="no" name="availiable" value="No ">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ari</td>
+                    <td>Suki/Sissy</td>
+                    <td>Feb 8</td>
+                    <td>4</td>
+                    <td>Spaghetti</td>
+                    <td> 
+                        <input type="submit" id="yes" name="availiable" value="Yes" >
+                        <br>
+                        <input type="submit" id="no" name="availiable" value="No ">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Alexander</td>
+                    <td>Doodie</td>
+                    <td>March 25</td>
+                    <td>2</td> 
+                    <td>Cheese</td>
+                    <td> 
+                        <input type="submit" id="yes" name="availiable" value="Yes">
+                        <br>
+                        <input type="submit" id="no" name="availiable" value="No ">
+                    </td>
+                </tr>
+            </table>
+
+
+
+    </section>
 </body>
 
 </html>
