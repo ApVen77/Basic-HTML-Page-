@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p>Click the button to create an IMG element.</p>
+
+    <button onclick="myFun()">Try it</button>
+
+    <p>Click the button to create a P element, and append it to DIV.</p>
+
+    <div id="myDIV">
+
+    </div>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <ul id="myList">
+        <li>Waffle</li>
+        <li>Pancake</li>
+    </ul>
+
+    <p>Click the button to add an item to the list.</p>
+
+    <button onclick="myFunky()">Add it Out</button>
+
+
+    <script>
+        function myFun() {
+            let note = document.createElement("IMG");
+            note.setAttribute("src", "https://assets.punchdrink.com/wp-content/uploads/2015/11/gin-juice.jpg");
+            note.setAttribute("width", "150");
+            note.setAttribute("height", "125");
+            note.setAttribute("border", "5px black solid");
+            note.setAttribute("alt", "Image of gin and juice"); 
+            document.body.appendChild(note);
+        }
+
+        function myFunky() {
+            let para = document.createElement("p");
+            let text = document.createTextNode("Miss Mary Mack Mack MAck all dressed in black black black");
+            para.appendChild(text);
+            document.getElementById("myDiv").appendChild(para); 
+        }; 
+
+
+
+        function myFunction() {
+            let node= document.createElement("li");
+            let text1= document.createTextNode("French Toast");
+            node.appendChild(text1); 
+            document.getElementById("myList").appendChild(node);
+        }
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+    <!-- 
+    <form name="myForm">
+        <label>What is your Favorite Fruit?</label>
+        <input type="text" name="question">
+        <div id="err"></div>
+    </form>
+    <script>
+        function printError(elemId, hintMsg) {
+            document.getElementById(elemId).innerHTML = hintMsg;
+        }
+
+        const name = document.myForm.question.value;
+
+        var nameErr = error = true
+
+        if (name == "") {
+            printError("nameErr", "Please enter your name");
+        } else {
+            printError("error", "");
+            error = false;
+        }
+
+        function myFunction() {
+            var node = document.createElement("li");
+            var text = document.createTextNode("Water");
+            node.appendChild(text);
+            document.getElementById("myList").appendChild(node);
+
+            var image = document.createElement("img");
+            var pic = document.createTextNode("https://assets.punchdrink.com/wp-content/uploads/2015/11/gin-juice.jpg");
+            image.appendChild(pic);
+            document.getElementById("Image")
+        }
+
+        function myFun() {
+            var x = document.createElement("IMG");
+            x.setAttribute("src", "https://assets.punchdrink.com/wp-content/uploads/2015/11/gin-juice.jpg");
+
+
+            document.body.appendChild(x);
+        }
+
+        function myFunction() {
+            var para = document.createElement("P");
+            var t = document.createTextNode("This is a paragraph.");
+            para.appendChild(t);
+            document.getElementById("myDIV").appendChild(para);
+        }
+    </script> -->
+</body>
+
+</html>
