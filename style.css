@@ -1,4 +1,25 @@
- h1 {
+ body {
+    background-color: pink;
+}
+
+/* div {
+    background-color: magenta;
+} */
+
+ #one {
+    background-color: limegreen;
+}
+
+.two {
+    background-color: yellow;
+}
+
+#three {
+    background-color: purple; 
+} 
+
+
+h1 {
     text-align: center; 
     font-size: 35px;
     font-family: cursive;
@@ -24,4 +45,4 @@
  footer {
      
      position: fixed; 
- }
+ } */
